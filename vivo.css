@@ -1,0 +1,596 @@
+body{
+    margin: 0;
+    background-color:rgb(247,247,245);
+}
+a{
+    color: white; text-decoration:none;
+}
+.top{
+    width: 1440px;
+    height: 45px;
+    position: absolute;
+    background-color: #2f2f2f;
+}
+.guide
+{
+    margin-left: 60px;
+}
+.guide:nth-child(1){
+
+    width: 100px;
+    height: 35px;
+    padding: 10px 0 0 30px;
+    float: left;
+}
+
+.guide:nth-child(2){
+    position: absolute;
+    top: 15px;
+    left: 250px;
+    width:800px;
+    height: 30px;
+    /*background-color: red;*/
+
+    font-size: 10px;
+
+}
+
+.guide a{
+    margin-left: 60px;
+}
+
+.guide:nth-child(3){
+    position: absolute;
+    top: 15px;
+    left: 1100px;
+    width: 170px;
+    height: 30px;
+    /*background-color: red;*/
+
+    font-size: 10px;
+}
+.fifa{
+    position: absolute;
+    top: 73px;
+    left: 430px;
+    width: 700px;
+    height: 80px;
+    margin: 0 70px;
+    /*background-color: red;*/
+}
+
+.disc{
+    position: absolute;
+    width: 600px;
+    height: 20px;
+    /*background-color: chocolate;*/
+    top: 160px;
+    left: 350px;
+    font-size: 9px;
+    margin-left: 100px;
+}
+
+.disc a{
+    margin-left: 40px;
+    vertical-align:middle;
+    color :rgb(125,136,142);
+}
+
+.disc a img{
+    width: 15px;
+    height: 15px;
+    size: 100px;
+    top:3px;
+    vertical-align:middle;
+    margin-right: 10px;
+}
+
+
+.help{
+    position: absolute;
+    top: 160px;
+    right: 30px;
+    width: 250px;
+    height: 20px;
+    margin-right: 70px;
+    /*background-color: plum;*/
+}
+.help a{
+    vertical-align:middle;
+    color :black;
+}
+
+.help a img{
+    width: 15px;
+    height: 15px;
+    size: 100px;
+    top:3px;
+    vertical-align:middle;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.show_product{
+    top: 200px;
+    left: 40px;
+    width: 1200px;
+    height: 450px;
+    background: darkolivegreen url("download.jpg");
+    background-size: cover;
+    margin:0 50px 0 80px;
+    position: absolute;
+}
+
+.four{
+    position: absolute;
+    top:660px;
+    left: 40px;
+    /*background: chocolate;*/
+    width: 1200px;
+    height: 141px;
+    margin-left: 90px;
+}
+
+.four div:nth-child(1){
+    width: 293px;
+    height: 141px;
+    /*background-color: plum;*/
+    background-image: url("four_1.jpg");
+    background-size: cover;
+    margin-right: 4px;
+    float: left;
+}
+.four div:nth-child(2){
+    width: 293px;
+    height: 141px;
+    background: plum url("four_2.jpg");
+    background-size: cover;
+    margin-right: 4px;
+    float: left;
+}
+
+.four div:nth-child(3){
+    width: 293px;
+    height: 141px;
+    background: plum url("four_3.jpg");
+    background-size: cover;
+    margin-right: 4px;
+    float: left;
+}
+
+.four div:nth-child(4){
+    width: 293px;
+    height: 141px;
+    background: plum url("four_4.jpg");
+    background-size: cover;
+    float: left;
+}
+.title1
+{
+    width: 1200px;
+    height: 24px;
+    position: absolute;
+    top: 800px;
+    padding-top: 38px;
+    padding-bottom: 25px;
+    margin-left: 120px;
+}
+.new1
+{
+    color: #333;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    width: 600px;
+    position: absolute;
+    padding-left: 300px;
+}
+.new2
+{
+    color: #333;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    float: right;
+    padding:5px;
+}
+.newphone
+{
+    width: 1200px;
+    height: 521px;
+    top: 900px;
+    position: absolute;
+    background: aqua;
+    margin-left: 120px;
+    display: flex;
+}
+.newphone1
+{
+    width:394px;
+    height: 515px;
+    background: white;
+    border: rgb(247,247,245) 3px solid;
+}
+.newphone2
+{
+    width:394px;
+    height: 515px;
+    background:white;
+    border: rgb(247,247,245) 3px solid;
+}
+.newphone3 {
+    width: 394px;
+    height: 515px;
+    background: white;
+    border: rgb(247, 247, 245) 3px solid;
+}
+.oppo1
+{
+    margin-top: 20px;
+    width: 394px;
+    height: 288px;
+    background: url("4846_1521459122499hd_530x530 (1).png") no-repeat center center;
+    background-size: contain;
+
+}
+.w1
+{
+    padding-top: 28px;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+}
+.dec1
+{
+    padding-top: 11px;
+    padding-bottom: 48px;
+    font-size: 14px;
+    line-height: 39px;
+    text-align: center;
+}
+.price1
+{
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+    color: red;
+}
+.oppo2
+{
+    margin-top: 20px;
+    width: 394px;
+    height: 288px;
+    background: url("5019_1527499264320hd_530x530.png") no-repeat center center;
+    background-size: contain;
+
+}
+.w2
+{
+    padding-top: 28px;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+}
+.dec2
+{
+    padding-top: 11px;
+    padding-bottom: 48px;
+    font-size: 14px;
+    line-height: 39px;
+    text-align: center;
+}
+.price2
+{
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+    color: red;
+}
+.oppo3
+{
+    margin-top: 20px;
+    width: 394px;
+    height: 288px;
+    background: url("4852_1526305397894hd_530x530.png") no-repeat center center;
+    background-size: contain;
+
+}
+.w3
+{
+    padding-top: 28px;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+}
+.dec3
+{
+    padding-top: 11px;
+    padding-bottom: 48px;
+    font-size: 14px;
+    line-height: 39px;
+    text-align: center;
+}
+.price3
+{
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+    color: red;
+}
+.title2
+{
+    width: 1200px;
+    height: 24px;
+    position: absolute;
+    top: 1420px;
+    padding-top: 38px;
+    padding-bottom: 25px;
+    margin-left: 120px;
+}
+.new3
+{
+    color: #333;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    width: 600px;
+    position: absolute;
+    padding-left: 300px;
+}
+.new4 {
+    color: #333;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    float: right;
+    padding: 5px;
+}
+.hotphone {
+    width: 1200px;
+    height: 390px;
+    top: 1513px;
+    position: absolute;
+    margin-left: 120px;
+    display: flex;
+}
+.hotphone2 {
+    width: 1202px;
+    height: 390px;
+    top: 1890px;
+    position: absolute;
+    margin-left: 120px;
+    display: flex;
+    padding-left: 1px;
+}
+.newphone4
+{
+    width: 595px;
+    height: 375px;
+    background: white;
+    border: rgb(247,247,245) 3px solid;
+    background: url("20180531211148847492_original.png");
+    float: left;
+}
+.newphone5
+{
+    width:293px;
+    height: 380px;
+    background:white;
+    border: rgb(247,247,245) 3px solid;
+    float: left;
+}
+.newphone6
+{
+    width: 293px;
+    height: 380px;
+    background: white;
+    border: rgb(247, 247, 245) 3px solid;
+    float: left;
+}
+.oppo5
+{
+    margin-top: 20px;
+    width: 293px;
+    height: 215px;
+    background: url("4867_1521528390779hd_530x530.png") no-repeat center center;
+    background-size: contain;
+
+}
+.w5
+{
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+}
+.dec5
+{
+    padding-bottom: 16px;
+    font-size: 12px;
+    line-height: 39px;
+    text-align: center;
+}
+.price5
+{
+    font-size: 16px;
+    line-height: 39px;
+    text-align: center;
+    color: red;
+}
+.oppo6
+{
+    margin-top: 20px;
+    width: 293px;
+    height: 215px;
+    background: url("5004_1526974431827hd_530x530.png") no-repeat center center;
+    background-size: contain;
+
+}
+.w6
+{
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+}
+.dec6
+{
+    padding-bottom: 16px;
+    font-size: 12px;
+    line-height: 39px;
+    text-align: center;
+}
+.price6 {
+    font-size: 16px;
+    line-height: 39px;
+    text-align: center;
+    color: red;
+}
+.newphone7
+{
+    width:295px;
+    height: 380px;
+    background:white;
+    border: rgb(247,247,245) 3px solid;
+    float: left;
+}
+.newphone8
+{
+    width: 293px;
+    height: 380px;
+    background: white;
+    border: rgb(247, 247, 245) 3px solid;
+    float: left;
+}
+.newphone9
+{
+    width:293px;
+    height: 380px;
+    background:white;
+    border: rgb(247,247,245) 3px solid;
+    float: left;
+}
+.newphone10 {
+    width: 293px;
+    height: 380px;
+    background: white;
+    border: rgb(247, 247, 245) 3px solid;
+    float: left;
+}
+.oppo7
+{
+    margin-top: 20px;
+    width: 293px;
+    height: 215px;
+    background: url("4999_1526315012363hd_530x530.png") no-repeat center center;
+    background-size: contain;
+
+}
+.w7
+{
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+}
+.dec7
+{
+    padding-bottom: 16px;
+    font-size: 12px;
+    line-height: 39px;
+    text-align: center;
+}
+.price7 {
+    font-size: 16px;
+    line-height: 39px;
+    text-align: center;
+    color: red;
+}
+.oppo8
+{
+    margin-top: 20px;
+    width: 293px;
+    height: 215px;
+    background: url("4657_1514129544527hd_530x530.png") no-repeat center center;
+    background-size: contain;
+
+}
+.w8
+{
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+}
+.dec8
+{
+    padding-bottom: 16px;
+    font-size: 12px;
+    line-height: 39px;
+    text-align: center;
+}
+.price8 {
+    font-size: 16px;
+    line-height: 39px;
+    text-align: center;
+    color: red;
+}
+.oppo9
+{
+    margin-top: 20px;
+    width: 293px;
+    height: 215px;
+    background: url("4151_1496689455875hd_530x530.png") no-repeat center center;
+    background-size: contain;
+
+}
+.w9
+{
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+}
+.dec9
+{
+    padding-bottom: 16px;
+    font-size: 12px;
+    line-height: 39px;
+    text-align: center;
+}
+.price9 {
+    font-size: 16px;
+    line-height: 39px;
+    text-align: center;
+    color: red;
+}
+.oppo10
+{
+    margin-top: 20px;
+    width: 293px;
+    height: 215px;
+    background: url("5003_1526292817730hd_530x530.png") no-repeat center center;
+    background-size: contain;
+
+}
+.w10
+{
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+}
+.dec10
+{
+    padding-bottom: 16px;
+    font-size: 12px;
+    line-height: 39px;
+    text-align: center;
+}
+.price10
+{
+    font-size: 16px;
+    line-height: 39px;
+    text-align: center;
+    color: red;
+}
