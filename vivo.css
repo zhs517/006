@@ -45,9 +45,8 @@ a{
     left: 1100px;
     width: 170px;
     height: 30px;
-    /*background-color: red;*/
-
     font-size: 10px;
+    padding-left: 10px;
 }
 .fifa{
     position: absolute;
